@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "ftxjs": "^1.0.0",
-    "fxjs": "^0.21.3"
+    "fxjs": "^0.21.3",
+    "http": "^0.0.1-security",
+    "morgan": "^1.10.0"
   }
 }

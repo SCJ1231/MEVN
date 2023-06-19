@@ -1,0 +1,1 @@
+onsole.log(false || console.log('야!'))

@@ -13,4 +13,4 @@ log(-1 && null && true) // null
 log(null || 13 && 6 || 2) // 6
 
 // 5. 문제
-log(null || 13 && log(false) || 2) // false , 2 , undefined
+log(null || 13 && log(false) || 2) // false , 2 

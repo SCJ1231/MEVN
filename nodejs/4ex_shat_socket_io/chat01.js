@@ -14,13 +14,12 @@ app.use('/', express.static(_path))
 app.use(logger('tiny'))
 
 io.on('connection', (socket) => {
-    console.log(socket)
-  socket.on('chat message', (msg) => {// 받을 내용
-    console.log(msg)
-    io.emit('chat message', msg) // 보낼 내용
+  socket.on('chat message', (msg) => {
+    //받을 내용
+    io.emit('chat message', msg) //보낼 내용
   })
 })
 
 server.listen(port, () => {
-  console.log(port + '에서 서버동작 완료')
+  console.log(port + '에서 서버동작중')
 })

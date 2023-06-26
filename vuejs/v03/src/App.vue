@@ -4,9 +4,9 @@
     <router-link to="/strHtml">1.strHtml</router-link> |
     <router-link to="/IView">2.Input</router-link> |
     <router-link to="/SelView">3.Select</router-link> |
-    <router-link to="/">strHtml</router-link> |
-    <router-link to="/">strHtml</router-link> |
-    <router-link to="/">strHtml</router-link> |
+    <router-link to="/checkbox">4. Checkbox</router-link> |
+    <router-link to="/attribute">5. Attribute</router-link> |
+    <router-link to="/bindList">6. BindList</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
   <router-view />

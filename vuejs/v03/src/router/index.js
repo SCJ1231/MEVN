@@ -42,6 +42,33 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ '../views/SelView.vue')
+  },
+  {
+    path: '/checkbox',
+    name: 'checkbox',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/CheckboxView.vue')
+  },
+  {
+    path: '/attribute',
+    name: 'attribute',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/AttributeView.vue')
+  },
+  {
+    path: '/bindList',
+    name: 'bindList',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "about" */ '../views/BindListView.vue')
   }
 ]
 

@@ -8,7 +8,7 @@ app.get('/search.naver', (req, res) => {
     const ewhere = req.query.where
   res.send(`요청하신 쿼리는 ${equery}과 ${ewhere}입니다.`)
   //  ->   /search.naver?where=nexearch&sm=top_hty&fbm=0&ie=utf8&query=bus
-})
+})  
 /* PATH 방식 */
 app.get('/search.daum/:where/:sm/:fbm/:ie/:query', (req, res) => {
     const obj = req.params
